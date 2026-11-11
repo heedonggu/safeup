@@ -1,0 +1,17 @@
+# 실행 데이터·비밀(설정 키, 관리자 비밀번호, DB, 영상)
+data/
+.env
+*.db
+# 만들어지는 것: py build.py 로 다시 만든다
+site/
+private/
+__pycache__/
+.pytest_cache/
+graphify-out/
+# 시험 화면 캡처(시험 계정이 찍힘), 외부 감사 원자료(원본 서비스 설명서 텍스트·코드 묶음·로그)
+tests/screens/
+audit/
+
+# graft's local graph cache — regenerable, not committed (run `graft build`).
+/graft/
+.ignore

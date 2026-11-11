@@ -1,0 +1,8 @@
+openpyxl==3.1.5
+reportlab
+pypdf==6.14.2
+python-docx
+edge-tts==7.3.1
+faster-whisper==1.2.1
+av==18.1.0  # 19 은 faster-whisper 1.2.1 과 안 맞음(metadata_errors 인자)
+ctranslate2==4.8.2

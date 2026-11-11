@@ -1,0 +1,21 @@
+name: test
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      PYTHONUTF8: "1"
+      PYTHONIOENCODING: utf-8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: sudo apt-get update && sudo apt-get install -y ffmpeg fonts-nanum
+      - run: pip install -r requirements.txt
+      - run: python build.py
+      - run: python tests/test_api.py
+      - run: python tests/test_oauth.py
+      - run: python tests/test_product.py --no-ai
+      - run: python tests/test_extra.py --no-ai

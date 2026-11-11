@@ -1,0 +1,17 @@
+# 서버(호스팅어)에서: docker compose up -d --build
+# 서버에 이미 도는 ollama(127.0.0.1:11434, qwen3:8b)를 쓰려고 호스트 네트워크로 띄운다. 클라우드플레어 터널이 127.0.0.1:8810 으로 들어온다.
+# 비밀값은 같은 폴더 .env(git 제외)에: ADMIN_PASSWORD, SECRET, BASE_URL, OWNER_EMAIL, SAFETY_ORIGIN, EDU_SECRET, SMTP_*
+services:
+  app:
+    build: .
+    restart: unless-stopped
+    network_mode: host
+    env_file: .env
+    environment:
+      HOST: 127.0.0.1
+      PORT: "8810"
+      OLLAMA_URL: http://127.0.0.1:11434
+      OLLAMA_WARM: "1"
+    volumes: ["data:/data"]
+volumes:
+  data:

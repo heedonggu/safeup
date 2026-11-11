@@ -1,0 +1,20 @@
+name: 기능 제안
+description: 현장에 필요한 기능 제안
+labels: [enhancement]
+body:
+  - type: textarea
+    id: who
+    attributes:
+      label: 누가, 어떤 현장에서, 왜 필요한가
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: 제안 내용
+    validations:
+      required: true
+  - type: textarea
+    id: alt
+    attributes:
+      label: 지금은 어떻게 하고 있나(대안)

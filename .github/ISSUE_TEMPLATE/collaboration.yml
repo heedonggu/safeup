@@ -1,0 +1,42 @@
+name: 협업 제안(상업적 이용·상품화)
+description: 이 앱이나 아이디어를 상업적으로 쓰거나 상품화하려면 여기로
+title: "[협업 제안] "
+labels: [collaboration]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        세이프업의 상업적 이용·상품화는 **함께 만드는 조건**으로만 열려 있습니다(LICENSE 2조).
+        협업을 제안하거나, 먼저 기여(코드·번역·현장 자료·시험)한 뒤 조건을 합의해 주세요.
+        연락처는 공개 이슈에 적지 말고, 검토 후 비공개로 주고받습니다.
+  - type: input
+    id: org
+    attributes:
+      label: 회사·단체 이름
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 이용 방식
+      options:
+        - 자사 현장 내부 사용
+        - 고객사 구축·운영 대행
+        - SaaS·유료 서비스
+        - 제품에 포함·재판매
+        - 공동 개발
+        - 기타
+    validations:
+      required: true
+  - type: textarea
+    id: plan
+    attributes:
+      label: 쓰려는 방식과 규모(현장 수, 사용자 수 등)
+    validations:
+      required: true
+  - type: textarea
+    id: contribute
+    attributes:
+      label: 함께 할 수 있는 부분(개발, 번역, 현장 자료, 시험, 영업 등)
+    validations:
+      required: true

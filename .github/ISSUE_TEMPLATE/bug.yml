@@ -1,0 +1,28 @@
+name: 버그 신고
+description: 동작이 잘못된 경우
+labels: [bug]
+body:
+  - type: textarea
+    id: steps
+    attributes:
+      label: 재현 순서
+      placeholder: "1. ... 2. ... 3. ..."
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 기대 결과
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: 실제 결과(오류 문구·화면)
+    validations:
+      required: true
+  - type: input
+    id: env
+    attributes:
+      label: 환경
+      placeholder: "Chrome 140 / Windows 11 / Docker"
