@@ -70,14 +70,14 @@ python tests/test_extra.py --no-ai
 
 ## 라이선스 · 상업적 이용
 
-**개인·학습·연구·비영리 이용은 자유**다. 소스를 보고, 고치고, 내 현장에서 써 봐도 된다.
+**개인·학습·연구·비영리·공공기관 이용은 무료**다. 소스를 보고, 고치고, 내 현장에서 써 봐도 된다.
 
 **상업적 이용과 상품화는 함께 만드는 조건으로만 열려 있다.** 이 앱이나 이 아이디어(영상 매뉴얼 + AI 다국어 안전교육 + 중대재해 의무 관리 결합)로 돈을 벌거나 서비스·제품을 내려면 다음 중 하나를 먼저 한다.
 
 1. **협업 제안** — [협업 제안 이슈](../../issues/new?template=collaboration.yml)를 연다. 회사, 쓰려는 방식, 함께 할 수 있는 부분을 적는다.
 2. **기여** — 기능·수정·번역·현장 자료로 의미 있는 기여를 하고, 협업 제안 이슈에서 상업 이용 조건을 합의한다.
 
-합의 없는 상업적 이용·재판매·SaaS 제공·상품화는 허락하지 않는다. 자세한 조건은 [LICENSE](LICENSE).
+합의 없는 상업적 이용·재판매·SaaS 제공·상품화는 허락하지 않는다. 라이선스는 [PolyForm Noncommercial 1.0.0](LICENSE)(비상업 소스 공개, OSI 오픈소스 아님), 상업 허락 조건은 [COMMERCIAL.md](COMMERCIAL.md).
 
 ## 기여
 
@@ -85,4 +85,4 @@ python tests/test_extra.py --no-ai
 
 ---
 
-**English summary** — SafeUp is a video-manual, safety-training and compliance web app for construction sites (Python stdlib server + SQLite + vanilla JS, local AI via faster-whisper and Ollama). Free for personal, educational, research and non-profit use. **Commercial use or productization requires a collaboration agreement or a meaningful contribution** — open a [collaboration proposal issue](../../issues/new?template=collaboration.yml). See [LICENSE](LICENSE).
+**English summary** — SafeUp is a video-manual, safety-training and compliance web app for construction sites (Python stdlib server + SQLite + vanilla JS, local AI via faster-whisper and Ollama). Free for personal, educational, research and non-profit use. **Commercial use or productization requires a collaboration agreement or a meaningful contribution** — open a [collaboration proposal issue](../../issues/new?template=collaboration.yml). License: PolyForm Noncommercial 1.0.0 ([LICENSE](LICENSE)); commercial terms in [COMMERCIAL.md](COMMERCIAL.md).

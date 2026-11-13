@@ -1,67 +1,75 @@
-SafeUp Collaborative Non-Commercial License 1.0
-Copyright (c) 2026 heedonggu (https://github.com/heedonggu)
+Required Notice: Copyright (c) 2026 heedonggu (https://github.com/heedonggu/safeup)
 
-[한국어]
+# PolyForm Noncommercial License 1.0.0
 
-1. 허락
-   누구나 이 소프트웨어(소스 코드, 문서, 화면 구성 포함)를 비상업적 목적으로
-   무료로 사용·복제·수정·배포할 수 있다. 비상업적 목적이란 개인 사용, 학습,
-   연구, 평가, 비영리 단체의 내부 사용, 자기 현장에서의 시범 사용을 말한다.
+<https://polyformproject.org/licenses/noncommercial/1.0.0>
 
-2. 상업적 이용과 상품화
-   다음은 저작권자와의 서면 협업 합의가 있을 때만 허락된다.
-   (가) 이 소프트웨어 또는 그 수정본을 판매·임대·유료 배포하는 것
-   (나) 이 소프트웨어로 유료 서비스(SaaS, 호스팅, 구축·운영 대행 포함)를 제공하는 것
-   (다) 이 소프트웨어에 담긴 제품 구상(현장 영상 매뉴얼, AI 다국어 안전교육,
-        중대재해 의무 관리의 결합)을 바탕으로 제품·서비스를 상품화하는 것
-   (라) 영리 기업이 수익 활동의 일부로 사용하는 것
-   합의는 저장소의 "협업 제안" 이슈로 요청한다. 의미 있는 기여(코드, 번역,
-   현장 자료, 시험)를 한 사람·회사는 협업 합의 때 이를 우선 반영한다.
+## Acceptance
 
-3. 조건
-   복제·배포할 때 이 라이선스 전문과 저작권 표시를 함께 둔다.
-   수정본에는 수정했다는 사실을 밝힌다.
+In order to get any license under these terms, you must agree to them as both strict obligations and conditions to all your licenses.
 
-4. 기여
-   저장소에 기여(PR 등)를 보내면, 그 기여를 이 라이선스와 저작권자가 맺는
-   협업 합의 조건으로 배포하는 데 동의한 것으로 본다.
+## Copyright License
 
-5. 보증 없음
-   이 소프트웨어는 "있는 그대로" 제공된다. 법령 점검 기능은 기록을 돕는 도구이며
-   법적 의무 충족을 판정하거나 보증하지 않는다. 사용으로 생긴 손해에 대해
-   저작권자는 책임지지 않는다.
+The licensor grants you a copyright license for the software to do everything you might do with the software that would otherwise infringe the licensor's copyright in it for any permitted purpose.  However, you may only distribute the software according to [Distribution License](#distribution-license) and make changes or new works based on the software according to [Changes and New Works License](#changes-and-new-works-license).
 
-6. 종료
-   이 조건을 어기면 허락은 자동으로 끝난다.
+## Distribution License
 
-[English]
+The licensor grants you an additional copyright license to distribute copies of the software.  Your license to distribute covers distributing the software with changes and new works permitted by [Changes and New Works License](#changes-and-new-works-license).
 
-1. Grant. Anyone may use, copy, modify and distribute this software free of
-   charge for non-commercial purposes: personal use, learning, research,
-   evaluation, internal use by non-profit organizations, and pilot use at
-   one's own site.
+## Notices
 
-2. Commercial use and productization require a written collaboration
-   agreement with the copyright holder. This includes (a) selling, leasing or
-   paid distribution of the software or derivatives; (b) offering paid
-   services based on it (SaaS, hosting, implementation or operation);
-   (c) commercializing the product concept it embodies (site video manuals
-   combined with AI multilingual safety training and statutory safety-duty
-   management); (d) use by a for-profit company as part of revenue-generating
-   activity. Request an agreement by opening a "Collaboration proposal" issue.
-   Meaningful contributions (code, translations, field material, tests) are
-   given priority in such agreements.
+You must ensure that anyone who gets a copy of any part of the software from you also gets a copy of these terms or the URL for them above, as well as copies of any plain-text lines beginning with `Required Notice:` that the licensor provided with the software.  For example:
 
-3. Conditions. Keep this license and the copyright notice with every copy.
-   Mark modified versions as modified.
+> Required Notice: Copyright Yoyodyne, Inc. (http://example.com)
 
-4. Contributions. By submitting a contribution you agree that it may be
-   distributed under this license and under collaboration agreements made by
-   the copyright holder.
+## Changes and New Works License
 
-5. No warranty. The software is provided "AS IS", without warranty of any
-   kind. Compliance features assist record keeping and do not determine or
-   guarantee legal compliance. The copyright holder is not liable for any
-   damages arising from its use.
+The licensor grants you an additional copyright license to make changes and new works based on the software for any permitted purpose.
 
-6. Termination. Any breach of these terms ends the grant automatically.
+## Patent License
+
+The licensor grants you a patent license for the software that covers patent claims the licensor can license, or becomes able to license, that you would infringe by using the software.
+
+## Noncommercial Purposes
+
+Any noncommercial purpose is a permitted purpose.
+
+## Personal Uses
+
+Personal use for research, experiment, and testing for the benefit of public knowledge, personal study, private entertainment, hobby projects, amateur pursuits, or religious observance, without any anticipated commercial application, is use for a permitted purpose.
+
+## Noncommercial Organizations
+
+Use by any charitable organization, educational institution, public research organization, public safety or health organization, environmental protection organization, or government institution is use for a permitted purpose regardless of the source of funding or obligations resulting from the funding.
+
+## Fair Use
+
+You may have "fair use" rights for the software under the law. These terms do not limit them.
+
+## No Other Rights
+
+These terms do not allow you to sublicense or transfer any of your licenses to anyone else, or prevent the licensor from granting licenses to anyone else.  These terms do not imply any other licenses.
+
+## Patent Defense
+
+If you make any written claim that the software infringes or contributes to infringement of any patent, your patent license for the software granted under these terms ends immediately. If your company makes such a claim, your patent license ends immediately for work on behalf of your company.
+
+## Violations
+
+The first time you are notified in writing that you have violated any of these terms, or done anything with the software not covered by your licenses, your licenses can nonetheless continue if you come into full compliance with these terms, and take practical steps to correct past violations, within 32 days of receiving notice.  Otherwise, all your licenses end immediately.
+
+## No Liability
+
+***As far as the law allows, the software comes as is, without any warranty or condition, and the licensor will not be liable to you for any damages arising out of these terms or the use or nature of the software, under any kind of legal claim.***
+
+## Definitions
+
+The **licensor** is the individual or entity offering these terms, and the **software** is the software the licensor makes available under these terms.
+
+**You** refers to the individual or entity agreeing to these terms.
+
+**Your company** is any legal entity, sole proprietorship, or other kind of organization that you work for, plus all organizations that have control over, are under the control of, or are under common control with that organization.  **Control** means ownership of substantially all the assets of an entity, or the power to direct its management and policies by vote, contract, or otherwise.  Control can be direct or indirect.
+
+**Your licenses** are all the licenses granted to you for the software under these terms.
+
+**Use** means anything you do with the software requiring one of your licenses.
